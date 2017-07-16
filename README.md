@@ -5,6 +5,8 @@ Aufgabe: http://cic-challenge.eu-gb.mybluemix.net/challenge.html
 
 Ich habe die Variante "Front-end" gewählt.
 
+Lösung public gehosted: http://argjendi1998.bplaced.net/ganiji_cic/
+
 <h2>Verwendete Technologien</h2>
 HTML, CSS, JavaScript, Bootstrap, jQuery;
 
