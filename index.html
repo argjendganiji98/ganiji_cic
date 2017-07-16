@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Film Locations San Francisco</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/footable.bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	
+	<body>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who am I?</a></li>
+							<li><a href="#two">Location & Film</a></li>
+							<li><a href="#three">Contact me!</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Film Locations in San Francisco</h1>
+							<p>If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in 
+							San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.</p>				
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+				<section id="one" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Who am I?</h2>
+							<p>I am Argjend Ganiji from St. Pölten.
+							   I implemented this Single Page Application for the IBM Client Innovation Center Austria.</p>
+							   <p>To go in detail it is part of the CIC-Challenge.
+							   So, I hope i am the best.</p>
+							   
+							   <h2>Location IBM Client Innovation Center Austria:</h2>
+							   <div class="responsiveContainer">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.5983953114287!2d16.413513407750006!3d48.23360731064487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9961cf2a1ba5bfd5!2sDC+TOWER!5e0!3m2!1sde!2sus!4v1500044153495" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+							   </div>
+							  <br>
+							<ul class="actions">
+								<li><a href="#two" class="button scrolly">Let's go to the movies!</a></li>
+							</ul>
+						</div>
+					</section>
+				
+				<!-- Two -->
+				<section id="two"  class="wrapper style2 fade-up" >
+					<div class="inner">
+						<h2>Here you can see the titles of some movies which were filmed in San Francisco. The detailed location is also there.</h2>
+						<table class="table table-striped" data-paging-limit="2"></table>
+					</div> 
+				</section>
+
+				<!-- Three -->
+				<section id="three" class="wrapper style1 fade-up">
+					<div class="inner">
+						<h2>Contact me</h2>
+						<p>If you want to know more about the film locations in San Francisco, please don't write me! :D</p>
+						<div class=" style1">
+							<section>
+								<form method="post" action="#">
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="5"></textarea>
+									</div>
+									<ul class="actions">
+										<li><a href="" class="button submit">Don't send me a message</a></li>
+									</ul>
+								</form>
+							</section>
+						</div>
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>This is a footer :=)</a></li>
+					</ul>
+				</div>
+			</footer>
+	</body>
+	
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/footable.js"></script>
+	<!-- Initialize FooTable -->
+	<script>
+		jQuery(function($){
+			$('.table').footable({
+				"paging": {
+					"enabled": true
+				},
+				"columns": $.get("content/columns.json"),
+				"rows": $.get("content/rows.json")
+			});
+		});
+	</script>
+</html>
