@@ -41,3 +41,14 @@ Design: Grundgerüst aus alten Projekten<br>
 Animationen: großteils aus alten Projekten<br>
 Table: FooTable, jQuery-Plugin, eingesetzt, Daten aus einer JSON-Datei geholt.<br>
 Recherche: Über JSON, FooTable und CSS-Animationen. <br>
+
+<h2>Notizen</h2>
+Aufgrund der Zeitbeschränkung konnte ich ein paar Ideen nicht umsetzen.
+
+Dies wären Ideenm die man später realisieren kann:
+<ul>
+<li>Klick auf eine Zeile in der Tabelle -> erscheinen eines modalen Fensters mit den ganzen Informationen</li>
+<li>Im obenerwähnten modalen Fenster, die Möglichkeit einen Trailer anzuschauen, falls vorhanden.</li>
+<li>Link zur IMDb-Seite der einzelnen Filme (http://www.imdb.com/) im modalen Fenster</li>
+<li>Erstellen eines Skripts, welches die Latitude und Longitude der Standorte abfragt und eine JSON-Datei (oder ähnlich) mit diesen erstellt. Diese Werte dann verwenden um eine Map mit den ganzen Standorten zu bauen. (http://www.latlong.net/)</li>
+</ul>
