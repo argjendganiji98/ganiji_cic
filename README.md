@@ -8,7 +8,7 @@ Ich habe die Variante "Front-end" gewählt.
 Lösung public gehosted: http://argjendi1998.bplaced.net/ganiji_cic/
 
 <h2>Verwendete Technologien</h2>
-HTML, CSS, JavaScript, Bootstrap, jQuery;
+HTML, CSS, JavaScript, Bootstrap, skel, jQuery;
 
 jQuery Plugins: scrollex, scrolly, FooTable;
 
