@@ -45,7 +45,7 @@ Recherche: Über JSON, FooTable und CSS-Animationen. <br>
 <h2>Notizen</h2>
 Aufgrund der Zeitbeschränkung konnte ich ein paar Ideen nicht umsetzen.
 
-Dies wären Ideenm die man später realisieren kann:
+Dies wären Ideen, die man später realisieren kann:
 <ul>
 <li>Klick auf eine Zeile in der Tabelle -> erscheinen eines modalen Fensters mit den ganzen Informationen</li>
 <li>Im obenerwähnten modalen Fenster, die Möglichkeit einen Trailer anzuschauen, falls vorhanden.</li>
